@@ -3,7 +3,7 @@ import subprocess
 
 commands = ("off", "reboot", "clone", "update", "exit" )
 
-state = True   # выключатель, может понадобиться в будущем
+state = True   # выключатель
 while(state):
 
     print("\nВведите команду или help для просмотра доступных команд: ")
